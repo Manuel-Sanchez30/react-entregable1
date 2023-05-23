@@ -1,0 +1,72 @@
+
+
+.app{
+    /* background-image: url(/fortuna-1/fondo3.jpg); */
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.app__tittle{
+    
+    font-size: 1.6rem;
+    position: absolute;
+    top: 7em;
+    color: white;
+    
+}
+
+.card{
+    padding: 1.5em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    line-height: 1.8;
+    color: #00000088;
+    font-weight: bold;
+}
+
+.app__btn{
+    padding: 1em 1.5em;
+    font-size: 1.2rem;
+    border-radius: 0.5em;
+    background-color: rgb(153, 235, 235);
+    cursor: pointer;
+    color: #00000088;
+    width: 12em;
+    font-weight: bold;
+    border: 0.2em solid white;
+}
+
+.app__btn:hover{
+    transform:scale(1.05);
+    filter: brightness(1.1);
+}
+
+@media (min-width: 500px) {
+    .app__tittle{
+    
+        font-size: 2rem;        
+        
+    }
+
+    .card{
+        padding: 2em;
+        font-size: 1.5rem;        
+        max-width: 600px;
+    
+    }
+
+
+}
+
+
